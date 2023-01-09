@@ -57,6 +57,6 @@ async def send_text(bot, m: Message):
             except Exception:
                 pass
     else:
-        msg = await m.reply_text(Presets.REPLY_ERROR, m.message_id)
+        msg = await m.reply_text(Presets.REPLY_ERROR, m.message_id, m.message_id)
         await asyncio.sleep(8)
         await msg.delete()
