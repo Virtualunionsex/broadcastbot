@@ -19,7 +19,7 @@ class Config(object):
     # Get from my.telegram.org
     API_HASH = os.environ.get("API_HASH", "115e8242ea0423893160bb61a9e05eab")
     # Database URI
-    DB_URI = os.environ.get("DATABASE_URL", "mongodb://mongo:7v3wJ3rp2QCdI24J02hJ@containers-us-west-55.railway.app:7269")
+    DB_URI = os.environ.get("DATABASE_URL", "postgresql://postgres:C2lKTX9msO4Nrf7if0RC@containers-us-west-145.railway.app:7063/railway")
     # List of admin user ids for special functions(
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5166575484").split())
 
