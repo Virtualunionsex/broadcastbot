@@ -13,15 +13,15 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 class Config(object):
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5697059470:AAFVogFk4IsTKht41DstaQtqGnRISuHTpOE")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6278243144:AAFugrKWisjrTXTrbnX3e7c4W9wVxjASptY")
     # Get from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", "14672956"))
+    APP_ID = int(os.environ.get("APP_ID", "16246834"))
     # Get from my.telegram.org
-    API_HASH = os.environ.get("API_HASH", "115e8242ea0423893160bb61a9e05eab")
+    API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
     # Database URI
-    DB_URI = os.environ.get("DATABASE_URL", "postgresql://postgres:C2lKTX9msO4Nrf7if0RC@containers-us-west-145.railway.app:7063/railway")
+    DB_URI = os.environ.get("DATABASE_URL", "postgresql://pfewsazv:NFJuP00vvb9dup3vS8jzp0ZpNYusWXtS@raja.db.elephantsql.com/pfewsazv")
     # List of admin user ids for special functions(
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5166575484").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1715348447").split())
 
 
 def LOGGER(name: str) -> logging.Logger:
